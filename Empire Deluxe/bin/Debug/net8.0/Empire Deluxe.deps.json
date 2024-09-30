@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Empire Deluxe/1.0.0": {
+        "runtime": {
+          "Empire Deluxe.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Empire Deluxe/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
