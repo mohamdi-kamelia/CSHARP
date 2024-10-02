@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kamil\\OneDrive\\Bureau\\CSHARP\\Empire Deluxe\\Empire Deluxe.csproj": {}
+    "C:\\Users\\Jean\\CSHARP\\Empire Deluxe\\Empire Deluxe.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kamil\\OneDrive\\Bureau\\CSHARP\\Empire Deluxe\\Empire Deluxe.csproj": {
+    "C:\\Users\\Jean\\CSHARP\\Empire Deluxe\\Empire Deluxe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kamil\\OneDrive\\Bureau\\CSHARP\\Empire Deluxe\\Empire Deluxe.csproj",
+        "projectUniqueName": "C:\\Users\\Jean\\CSHARP\\Empire Deluxe\\Empire Deluxe.csproj",
         "projectName": "Empire Deluxe",
-        "projectPath": "C:\\Users\\kamil\\OneDrive\\Bureau\\CSHARP\\Empire Deluxe\\Empire Deluxe.csproj",
-        "packagesPath": "C:\\Users\\kamil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kamil\\OneDrive\\Bureau\\CSHARP\\Empire Deluxe\\obj\\",
+        "projectPath": "C:\\Users\\Jean\\CSHARP\\Empire Deluxe\\Empire Deluxe.csproj",
+        "packagesPath": "C:\\Users\\Jean\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jean\\CSHARP\\Empire Deluxe\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kamil\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Jean\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"

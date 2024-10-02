@@ -28,3 +28,4 @@ C:\Users\kamil\OneDrive\Bureau\CSHARP\Empire Deluxe\obj\Debug\net8.0\refint\Empi
 C:\Users\kamil\OneDrive\Bureau\CSHARP\Empire Deluxe\obj\Debug\net8.0\Empire Deluxe.pdb
 C:\Users\kamil\OneDrive\Bureau\CSHARP\Empire Deluxe\obj\Debug\net8.0\Empire Deluxe.genruntimeconfig.cache
 C:\Users\kamil\OneDrive\Bureau\CSHARP\Empire Deluxe\obj\Debug\net8.0\ref\Empire Deluxe.dll
+C:\Users\Jean\CSHARP\Empire Deluxe\bin\Debug\net8.0\assets\map.txt

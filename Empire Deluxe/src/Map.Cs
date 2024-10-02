@@ -7,14 +7,17 @@ public class Map
 
     public static void ChargerCarte(string chemin)
     {
-        if (!File.Exists(chemin))
+        string fullPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Assets", chemin);
+        Console.WriteLine($"Trying to load map from: {fullPath}");
+
+        if (!File.Exists(fullPath))
         {
             Console.WriteLine("Le fichier de carte n'existe pas !");
             _map = new char[0, 0]; // Utilisation d'une carte vide si le fichier est introuvable
             return;
         }
 
-        string[] lignes = File.ReadAllLines(chemin);
+        string[] lignes = File.ReadAllLines(fullPath);
         _map = new char[lignes.Length, lignes[0].Length];
 
         for (int y = 0; y < lignes.Length; y++)
@@ -25,7 +28,6 @@ public class Map
             }
         }
     }
-
     public static void AfficherCarte()
     {
         // Vérifier si la carte est chargée et qu'elle n'est pas vide
