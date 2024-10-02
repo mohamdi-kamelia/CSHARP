@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Empire Deluxe")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+79f051dd4bbaaf627db23afe08f8bd37bf280351")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+882d24b371bd1f4fc5832d065ebe2b15e1b2beb1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Empire Deluxe")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Empire Deluxe")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
