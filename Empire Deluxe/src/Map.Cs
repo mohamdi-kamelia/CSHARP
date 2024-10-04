@@ -1,6 +1,3 @@
-using System;
-using System.IO;
-
 public class Map
 {
     static char[,] _map = new char[0, 0]; // Initialisation par défaut à une carte vide
@@ -41,29 +38,36 @@ public class Map
         {
             for (int x = 0; x < _map.GetLength(1); x++)
             {
-                switch (_map[y, x])
-                {
-                    case 'O':
-                        Console.Write('~'); // Afficher l'eau
-                        break;
-                    case 'M':
-                        Console.Write('^'); // Afficher les montagnes
-                        break;
-                    case 'F':
-                        Console.Write('T'); // Afficher la forêt
-                        break;
-                    case 'C':
-                        Console.Write('C'); // Afficher la ville
-                        break;
-                    case '.':
-                        Console.Write('.'); // Afficher la terre
-                        break;
-                    default:
-                        Console.Write(' '); // Afficher un espace par défaut
-                        break;
-                }
+                Console.Write(_map[y, x]);
             }
             Console.WriteLine();
         }
+    }
+    public static void PlacePlayer(Player player)
+    {
+        if (_map.GetLength(0) == 0 || _map.GetLength(1) == 0)
+        {
+            Console.WriteLine("Erreur : La carte n'a pas été chargée.");
+            return;
+        }
+
+        if (player.PositionX < 0 || player.PositionX >= _map.GetLength(1) ||
+            player.PositionY < 0 || player.PositionY >= _map.GetLength(0))
+        {
+            Console.WriteLine("Erreur : Position du joueur en dehors des limites de la carte.");
+            return;
+        }
+
+        _map[player.PositionY, player.PositionX] = 'P';
+    }
+
+    public static void ClearPlayer(Player player)
+    {
+        _map[player.PositionY, player.PositionX] = ' ';
+    }
+
+    public static char[,] GetMap()
+    {
+        return _map;
     }
 }

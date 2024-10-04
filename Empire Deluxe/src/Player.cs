@@ -9,6 +9,8 @@ public class Player
     public int Defense { get; set; }
     public int Experience { get; private set; }
     public int Niveau { get; private set; }
+    public int PositionX { get; set; }
+    public int PositionY { get; set; }
 
     // Constructeur qui vérifie que le nom n'est pas null ou vide
     public Player(string nom)
@@ -24,6 +26,8 @@ public class Player
         Defense = 10; // Valeur de départ
         Experience = 0;
         Niveau = 1;
+        PositionX = 3; // Position de départ
+        PositionY = 3; // Position de départ
     }
 
     // Méthode pour attaquer un autre joueur
@@ -78,4 +82,6 @@ public class Player
         string etat = PointsDeVie > 0 ? "En vie" : "KO";
         Console.WriteLine($"Nom: {Nom}, PV: {PointsDeVie}, PM: {PointsDeMagie}, Attaque: {Attaque}, Défense: {Defense}, Niveau: {Niveau}, Expérience: {Experience}, État: {etat}");
     }
+
+
 }
