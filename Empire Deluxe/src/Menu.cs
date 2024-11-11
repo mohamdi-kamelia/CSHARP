@@ -47,19 +47,14 @@ class Menu
         {
             Player joueur = new Player(nomJoueur); // Création d'un joueur
 
-            // Chargement et affichage de la carte
-            Map.ChargerCarte("../assets/map.txt"); 
-            Map.AfficherCarte(); 
+            Game jeu = new Game(joueur); // Création d'une partie
+            jeu.Start(); // Démarrage de la partie
 
-            // Affichage des statistiques du joueur
-            joueur.AfficherStatistiques(); 
         }
         catch (ArgumentException e)
         {
             Console.WriteLine(e.Message);
         }
         
-        Console.WriteLine("Appuyez sur une touche pour revenir au menu...");
-        Console.ReadKey();
     }
 }

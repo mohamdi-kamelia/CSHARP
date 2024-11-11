@@ -1,14 +1,12 @@
-OOOOOOOOOOOOOOOOOOOOOO
-OOOOOOOFFFFOOOOOOOOOO
-OOOFFFFFFFFFFFFFFOOOOO
-OOF...MMFFFFFFFFFFOOO
-OOF...MM.FC..FFFFFOOOO
-OOF.....M.F.....FFOOO
-OOO.F.....FFFF...OOO
-OOO.F.CFFFFF.F...OOO
-OOO.F...FFFFMM..OOO
-OOOFFFF..FF.M....OOO
-OOOOFFFFF.FF....OOO
-OOOOOOOOFFFFFFFFOOO
-OOOOOOOOOOOOFFFFOOOOO
-OOOOOOOOOOOOOOOOOOOOO
+~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
+~~OOOOOOOOOOOOOOOO~~
+~~O              O~~
+~~O              O~~
+~~O              O~~
+~~O              O~~
+~~O              O~~
+~~O              O~~
+~~OOOOOOOOOOOOOOOO~~
+~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
